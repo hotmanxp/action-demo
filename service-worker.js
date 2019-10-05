@@ -34,10 +34,14 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/actions-demo/index.html"), {
 =======
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/action-demo/index.html"), {
 >>>>>>> badb853ab894834cd4f63463c27ad462a7e828c0
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/action-demo/index.html"), {
+>>>>>>> f384f427ef7def1c8f1450b54525a6f87ccd63bd
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
